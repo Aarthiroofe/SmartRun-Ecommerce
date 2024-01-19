@@ -1,0 +1,147 @@
+{
+    "List": [
+         {
+           "id": 1,
+           "name": "Watch",
+           "price": 350,
+           "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=600",
+           "category": "Electronics"
+         },
+         {
+           "id": 2,
+           "name": "Shirts",
+           "price": 920,
+           "image": "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Clothing"
+         },
+         {
+           "id": 3,
+           "name": "Plates",
+           "price": 55,
+           "image": "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Home & Kitchen"
+         },
+         {
+           "id": 4,
+           "name": "Face brush",
+           "price": 80,
+           "image": "https://images.pexels.com/photos/208052/pexels-photo-208052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Beauty"
+         },
+         {
+           "id": 5,
+           "name": "Foot Ball",
+           "price": 600,
+           "image": "https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Sports & Outdoors"
+         },
+         {
+           "id": 6,
+           "name": "Story Book",
+           "price":499,
+           "image": "https://images.pexels.com/photos/13650913/pexels-photo-13650913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Books"
+         },
+         {
+           "id": 7,
+           "name": "Speedo Meter",
+           "price": 999,
+           "image": "https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Automotive"
+         },
+         {
+           "id": 8,
+           "name": "Tablets",
+           "price": 29,
+           "image": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Health & Personal Care"
+         },
+         {
+           "id": 9,
+           "name": "Tools",
+           "price": 399,
+           "image": "https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Tools & Home Improvement"
+         },
+         {
+           "id": 10,
+           "name": "Headset",
+           "price": 50,
+           "image": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Electronics"
+         },
+         {
+           "id": 11,
+           "name": "Jeans",
+           "price": 999,
+           "image": "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Clothing"
+         },
+         {
+           "id": 12,
+           "name": "Maida",
+           "price": 150,
+           "image": "https://images.pexels.com/photos/3218467/pexels-photo-3218467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Home & Kitchen"
+         },
+         {
+           "id": 13,
+           "name": "Face Creams",
+           "price": 40,
+           "image": "https://images.pexels.com/photos/2720447/pexels-photo-2720447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Beauty"
+         },
+         {
+           "id": 14,
+           "name": "Chess Board",
+           "price": 600,
+           "image": "https://images.pexels.com/photos/957312/chess-checkmated-chess-pieces-black-white-957312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Sports & Outdoors"
+         },
+         {
+           "id": 15,
+           "name": "Story Book",
+           "price": 299,
+           "image": "https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Books"
+         },
+         {
+           "id": 16,
+           "name": "Side Mirror",
+           "price": 700,
+           "image": "https://images.pexels.com/photos/451590/pexels-photo-451590.jpeg?auto=compress&cs=tinysrgb&w=600",
+           "category": "Automotive"
+         },
+         {
+           "id": 17,
+           "name": "Olive Oil",
+           "price": 220,
+           "image": "https://images.pexels.com/photos/1022385/pexels-photo-1022385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Health & Personal Care"
+         },
+         {
+           "id": 18,
+           "name": "Strawberry",
+           "price": 110,
+           "image": "https://images.pexels.com/photos/3625372/pexels-photo-3625372.jpeg?auto=compress&cs=tinysrgb&w=600",
+           "category": "Tools & Home Improvement"
+         },
+         {
+           "id": 19,
+           "name": "Teddy Bear",
+           "price": 333,
+           "image": "https://images.pexels.com/photos/12211/pexels-photo-12211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Toys & Games"
+         },
+         {
+           "id": 20,
+           "name": "Papper Ship",
+           "price": 9,
+           "image": "https://images.pexels.com/photos/194094/pexels-photo-194094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+           "category": "Toys & Games"
+         }
+       ]
+     }
+     
+         
+   
