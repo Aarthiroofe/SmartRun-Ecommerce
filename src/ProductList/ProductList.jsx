@@ -3,9 +3,9 @@ import { Card, Col } from 'react-bootstrap';
 import productsData from '../Products.json';
 import { getProducts } from '../Services/Apiservice';
 import ProductPopup from './ProductPopup';
-import { AiFillCaretDown } from "react-icons/ai";
-import { AiFillCaretUp } from "react-icons/ai";
 import Pagination from '../Components/Pagination';
+import FilterComponent from'../Components/Filter';
+import SortComponent from '../Components/Sorting';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Style.css";
 
@@ -77,45 +77,24 @@ const ProductList = () => {
           <div className="col-12 col-md-3 product-heading">
             <h3>SmartRun Products</h3>
           </div>
-
-          <div className="col-12 col-md-5">
-            <select
-              className="form-control mb-4"
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-            >
-              <option value="All">All Categories</option>
-              {uniqueCategories.map((category) => (
-                <option key={category} value={category}>
-                  {category}
-                </option>
-              ))}
-            </select>
-          </div>
-
-
-          <div className="col-12 col-md-4">
-            <input
-              type="text"
-              className="form-control mb-4"
-              placeholder="Search by name..."
-              value={searchInput}
-              onChange={(e) => setSearchInput(e.target.value)}
-            />
-          </div>
+           <div className='col-12 col-md-9'>
+           <FilterComponent
+            selectedCategory={selectedCategory}
+            uniqueCategories={uniqueCategories}
+            onCategoryChange={setSelectedCategory}
+            searchInput={searchInput}
+            onSearchInputChange={setSearchInput}
+          />
+           </div>
+         
 
         </div>
 
         <div className="sort-buttons">
-          {sortBy === 'asc' ? (
-            <button className="btn btn-primary me-2" onClick={() => setSortBy('desc')}>
-              Sort by Price  <AiFillCaretUp />
-            </button>
-          ) : (
-            <button className="btn btn-primary me-2" onClick={() => setSortBy('asc')}>
-              Sort by Price <AiFillCaretDown />
-            </button>
-          )}
+        <SortComponent
+          sortBy={sortBy}
+          onSortChange={setSortBy}
+        />
         </div>
 
         <div className='row'>
@@ -141,7 +120,6 @@ const ProductList = () => {
           )}
         </div>
 
-        {/* Pagination */}
         <div className='pagination_container'>
           <Pagination
             currentPage={currentPage}
